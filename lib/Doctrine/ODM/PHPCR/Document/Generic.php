@@ -158,4 +158,13 @@ class Generic
 
         $this->referrers->add($referrer);
     }
+    
+    /**
+     * The node of this document
+     *
+     * @return object node
+     */
+    public function getNode() {
+        return $this->node;
+    }
 }
